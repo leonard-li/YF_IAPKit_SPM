@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "YF_IAP",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -23,8 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "YF_IAP_Binary",
-            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/iap/2.6.3/IAPKit.xcframework.zip",
-            checksum: "adcd813e2e432eee03b16d20624a4e1febd288255c58a833bc6cf9ff2b071450"
+            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/iap/2.6.5/IAPKit.xcframework.zip",
+            checksum: "af26c9d218b7a35d7fb0041c267998fca351d5f5c1d54ae57ed280ead2cc11db"
         )
     ]
 )
