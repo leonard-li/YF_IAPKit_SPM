@@ -23,8 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "YF_IAP_Binary",
-            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/iap/2.6.6/IAPKit.xcframework.zip",
-            checksum: "a01df973a1b294fb195a8965f5fad7a495bf043d2bc6e7b3516ece4de94bfd82"
+            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/iap/2.6.7/IAPKit.xcframework.zip",
+            checksum: "7c602234339d7598bca02bab4e43f74f69431cb47b7f441f83a500e6b5b17f62"
         )
     ]
 )
